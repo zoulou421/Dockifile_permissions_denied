@@ -1,0 +1,5 @@
+# Created at 2024-03-31T05:31:22.203
+Boot Manifest-JAR contains absolute paths in classpath 'B:\Master2-2023-2024\JavaEE\J2EE\dockerfile\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
