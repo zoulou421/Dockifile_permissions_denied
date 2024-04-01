@@ -6,7 +6,7 @@
 #ENTRYPOINT ["java","-jar","--spring.profiles.active=prod"]
 #CMD ["java","-jar","/app.jar","--spring.profiles.active=prod"]
 #EXPOSE 8080
-FROM openjdk:8-alpine
+FROM openjdk:17-jdk-alpine
 LABEL authors="Bonevy BEBY"
 VOLUME /tmp
 ADD target/dockerfile*.jar /app.jar
