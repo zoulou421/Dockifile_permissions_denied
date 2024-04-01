@@ -11,5 +11,4 @@ LABEL authors="Bonevy BEBY"
 VOLUME /tmp
 ADD target/dockerfile*.jar /app.jar
 CMD ["java","-jar","/app.jar","--spring.profiles.active=prod"]
-CMD[""]
 EXPOSE 8080
